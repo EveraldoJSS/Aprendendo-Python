@@ -1,0 +1,55 @@
+1. Quais das opções a seguir são operadores e quais são valores?
+
+*
+R: Operador
+'hello'
+R: Valor
+-88.8
+R: Valor
+-
+R: Operador
+/
+R: Operador
++
+R: Operador
+5
+R: Valor
+
+2. Qual das opções a seguir é uma variável e qual é uma string?
+
+spam
+R: Variável
+'spam'
+R: String
+
+3. Nomeie três tipos de dados.
+R: Inteiros, pontos flutuantes e string
+
+4. De que é composta uma expressão? O que fazem as expressões?
+R: Composta de operadores e valores. Fazem calculos e concatenam strings, resultando em um único valor ao ser processado.
+
+5. Este capítulo apresentou as instruções de atribuição, por exemplo, spam = 10. Qual é a diferença entre uma expressão e uma instrução?
+R: Expressão faz um processamento dos dados e retorna um valor. A instrução é uma ordem (no exemplo do cap, é uma ordem que armazena um valor).
+
+6. O que a variável bacon conterá após o código a seguir ser executado?
+
+bacon = 20
+bacon + 1
+R: 21
+
+7. Para que valores as duas expressões a seguir serão avaliadas?
+
+'spam' + 'spamspam'
+'spam' * 3
+R: spamspamspam
+
+8. Por que eggs é um nome válido de variável enquanto 100 é inválido?
+R: Nomes de variáveis não podem começar com números.
+
+9. Quais três funções podem ser usadas para obter uma versão inteira, de ponto flutuante ou em string de um valor?
+R: int(), float(), str().
+
+10. Por que a expressão a seguir causa um erro? Como você pode corrigi-la?
+'I have eaten ' + 99 + ' burritos.'
+R: Causa um erro pois há uma operação utilizando string + int.
+O correto: 'I have eaten ' + str(99) + ' burritos.'
